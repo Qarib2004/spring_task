@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="studentObj11" class="lifecycle.Student" init-method="init1" destroy-method="destroy1">
+        <property name="name" value="Semed" ></property>
+    </bean>
+
+    <bean id = "hw" class="lifecycle.HelloWorld" >
+<!--        <property name="name" value="Vimal Jaiswal"></property>-->
+    </bean>
+
+</beans>
